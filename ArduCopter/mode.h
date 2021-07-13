@@ -337,7 +337,6 @@ public:
     bool has_user_takeoff(bool must_navigate) const override {
         return !must_navigate;
     }
-
 protected:
 
     const char *name() const override { return "AntiJamming"; }
