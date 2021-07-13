@@ -926,6 +926,7 @@ private:
 #endif
 #endif
     ModeAltHold mode_althold;
+    ModeAntiJamming mode_antijamming;
 #if MODE_AUTO_ENABLED == ENABLED
     ModeAuto mode_auto;
 #endif
